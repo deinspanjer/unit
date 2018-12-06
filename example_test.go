@@ -1,6 +1,9 @@
-package unit
+package units
 
-import "fmt"
+import (
+	"fmt"
+	. "github.com/deinspanjer/units/length"
+)
 
 func ExampleFeetInMeters() {
 	ft := 1 * Foot
